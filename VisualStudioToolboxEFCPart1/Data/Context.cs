@@ -17,10 +17,10 @@ namespace VisualStudioToolboxEFCPart1.Data
 
 
         // an instance of DbContextOptionsBuilder is used to specify which database to use
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder2)
         {
             //an instance of DbContextOptionsBuilder is used to specify which database to use "useSqlServer".
-            optionsBuilder.UseSqlServer(@"Data Source=DESKTOP-RKO8EC2\SQLEXPRESS02; Initial Catalog=VisualStudioToolboxEFCPart1; Integrated Security=true;TrustServerCertificate=true");
+            optionsBuilder2.UseSqlServer(@"Data Source=DESKTOP-RKO8EC2\SQLEXPRESS02; Initial Catalog=VisualStudioToolboxEFCPart1; Integrated Security=true;TrustServerCertificate=true");
         }
     }
 }
